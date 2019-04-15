@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,29 +37,19 @@
                                 </constraints>
                                 <state key="normal" image="play"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWE-Gb-DWc">
-                                <rect key="frame" x="20" y="57.5" width="280" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="oyb-j4-sZK" firstAttribute="leading" secondItem="1ai-cZ-C40" secondAttribute="leading" id="58g-5x-VpU"/>
                             <constraint firstAttribute="trailing" secondItem="IqQ-j7-XzY" secondAttribute="trailing" constant="20" id="772-Qh-dBv"/>
-                            <constraint firstAttribute="trailing" secondItem="GWE-Gb-DWc" secondAttribute="trailing" constant="20" id="901-YD-Eg7"/>
                             <constraint firstItem="24L-VX-iA6" firstAttribute="leading" secondItem="1ai-cZ-C40" secondAttribute="leading" id="E1W-8o-2H0"/>
-                            <constraint firstItem="GWE-Gb-DWc" firstAttribute="centerY" secondItem="1ai-cZ-C40" secondAttribute="centerY" id="H1d-NO-KFB"/>
                             <constraint firstAttribute="bottom" secondItem="IqQ-j7-XzY" secondAttribute="bottom" constant="20" id="MoK-U6-DNz"/>
                             <constraint firstAttribute="trailing" secondItem="oyb-j4-sZK" secondAttribute="trailing" id="YsG-dD-aJP"/>
-                            <constraint firstItem="GWE-Gb-DWc" firstAttribute="leading" secondItem="1ai-cZ-C40" secondAttribute="leading" constant="20" id="bak-0B-M9G"/>
                             <constraint firstItem="24L-VX-iA6" firstAttribute="top" secondItem="1ai-cZ-C40" secondAttribute="top" id="e4R-BD-ols"/>
                             <constraint firstAttribute="bottom" secondItem="24L-VX-iA6" secondAttribute="bottom" id="fyd-2Z-ex0"/>
                             <constraint firstAttribute="trailing" secondItem="24L-VX-iA6" secondAttribute="trailing" id="nD2-jc-6wB"/>
                             <constraint firstAttribute="bottom" secondItem="oyb-j4-sZK" secondAttribute="bottom" id="r7D-oa-PI7"/>
                             <constraint firstItem="oyb-j4-sZK" firstAttribute="top" secondItem="1ai-cZ-C40" secondAttribute="top" id="zV1-sD-yBD"/>
-                            <constraint firstItem="GWE-Gb-DWc" firstAttribute="centerX" secondItem="1ai-cZ-C40" secondAttribute="centerX" id="zgf-2j-Xz1"/>
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02:01:10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3G-Fz-Xox">
@@ -79,18 +70,28 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWE-Gb-DWc">
+                        <rect key="frame" x="8" y="157" width="280" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="GWE-Gb-DWc" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-27" id="0Jq-Kh-AWX"/>
+                    <constraint firstAttribute="trailing" secondItem="GWE-Gb-DWc" secondAttribute="trailing" constant="62" id="2XQ-eJ-Zkq"/>
                     <constraint firstItem="qAK-j6-7jd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="B37-Jw-eoJ"/>
                     <constraint firstItem="B3G-Fz-Xox" firstAttribute="top" secondItem="qAK-j6-7jd" secondAttribute="bottom" id="E9e-vX-IhB"/>
                     <constraint firstItem="B3G-Fz-Xox" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="GgL-pe-6nh"/>
                     <constraint firstAttribute="trailing" secondItem="1ai-cZ-C40" secondAttribute="trailing" constant="15" id="RVI-TX-QeN"/>
                     <constraint firstAttribute="trailing" secondItem="qAK-j6-7jd" secondAttribute="trailing" constant="15" id="RVW-Ci-QbD"/>
+                    <constraint firstItem="GWE-Gb-DWc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="S6P-ZD-Ukg"/>
                     <constraint firstAttribute="bottom" secondItem="B3G-Fz-Xox" secondAttribute="bottom" constant="15" id="SbX-tg-gGO"/>
                     <constraint firstItem="1ai-cZ-C40" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="edB-CC-uOD"/>
                     <constraint firstItem="qAK-j6-7jd" firstAttribute="top" secondItem="1ai-cZ-C40" secondAttribute="bottom" constant="5" id="fRX-a2-RaT"/>
                     <constraint firstItem="1ai-cZ-C40" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="kdO-qI-R1D"/>
                     <constraint firstAttribute="trailing" secondItem="B3G-Fz-Xox" secondAttribute="trailing" constant="15" id="nNo-1d-XEx"/>
+                    <constraint firstItem="GWE-Gb-DWc" firstAttribute="top" secondItem="oyb-j4-sZK" secondAttribute="bottom" constant="7.5" id="wof-hD-oja"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
