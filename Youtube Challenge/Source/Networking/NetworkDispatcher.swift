@@ -2,8 +2,8 @@
 //  NetworkDispatcher.swift
 //  YTSearch
 //
-//  Created by Mai Nguyen on 12/14/17.
-//  Copyright © 2018 Applicaster. All rights reserved.
+//  Created by Mai Nguyen on 12/14/18.
+//  Copyright © 2018 AppArt. All rights reserved.
 //
 
 import Foundation

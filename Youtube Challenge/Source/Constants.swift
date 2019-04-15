@@ -8,7 +8,7 @@
 
 struct Constants {
   
-  static let reverseDomain = "com.applicaster.youtube-search"
+  static let reverseDomain = "com.AppArt.youtube-search"
   
   struct API {
     static let environment = Environment(httpProtocol: "https://", host: "www.googleapis.com", port: "")
