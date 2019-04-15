@@ -2,7 +2,7 @@
 //  NetworkLayer.swift
 //  YTSearch
 //
-//  Created by Abdiel Soto on 12/14/17.
+//  Created by Mai Nguyen on 12/14/17.
 //  Copyright © 2018 Applicaster. All rights reserved.
 //
 

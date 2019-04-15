@@ -2,7 +2,7 @@
 //  YoutubePlayerViewController.swift
 //  Youtube Challenge
 //
-//  Created by Abdiel Soto on 5/6/18.
+//  Created by Mai Nguyen on 5/6/18.
 //  Copyright © 2018 Applicaster. All rights reserved.
 //
 

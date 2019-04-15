@@ -2,7 +2,7 @@
 //  EmptySearchView.swift
 //  Youtube Challenge
 //
-//  Created by Abdiel Soto on 5/6/18.
+//  Created by Mai Nguyen on 5/6/18.
 //  Copyright © 2018 Applicaster. All rights reserved.
 //
 
@@ -18,7 +18,7 @@ class EmptySearchView: UIView {
   override func awakeFromNib() {
     backgroundColor = UIColor.searchBackgroundColor
     textLabel.textColor = .white
-    textLabel.text = "You can search any videos from youtube entering a term in the search box "
+    textLabel.text = "Search"
     imageView.backgroundColor = .clear
   }
   

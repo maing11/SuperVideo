@@ -2,8 +2,8 @@
 //  Constants.swift
 //  Youtube Challenge
 //
-//  Created by Abdiel Soto on 5/3/18.
-//  Copyright © 2018 Applicaster. All rights reserved.
+//  Created by Mai Nguyen on 5/4/18.
+//  Copyright © 2018 AppArt. All rights reserved.
 //
 
 struct Constants {

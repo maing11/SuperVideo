@@ -2,7 +2,7 @@
 //  SearchViewController.swift
 //  Youtube Challenge
 //
-//  Created by Abdiel Soto on 5/3/18.
+//  Created by Mai Nguyen on 5/3/18.
 //  Copyright © 2018 Applicaster. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 class SearchViewController: UIViewController {
   
   struct Constants {
-    static let title = "Applicaster Challenge"
+    static let title = "My Own YouTube App"
     static let height: CGFloat = 260
   }
   
